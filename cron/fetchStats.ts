@@ -9,7 +9,7 @@ const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
 const getPlayerConnectCodes = async (): Promise<string[]> => { 
-	return ['FUNN#850','LANC#189','PFRG#440','SAVE#362','DAFT#455'] };
+	return ['FUNN#850','LANC#189','PFRG#440','SAVE#362','DAFT#455','MSFR#361'] };
 
 
 const getPlayers = async () => {
